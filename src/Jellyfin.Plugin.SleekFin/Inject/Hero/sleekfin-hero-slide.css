@@ -58,11 +58,15 @@
 }
 
 .sleekfin-hero-title {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
     color: #fff;
+    display: -webkit-box;
     font-size: 38px;
     font-weight: 800;
     letter-spacing: -0.03em;
     line-height: 0.95;
+    overflow: hidden;
     text-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
     text-transform: uppercase;
 }
@@ -122,6 +126,7 @@
     }
 
     .sleekfin-hero-title {
+        -webkit-line-clamp: 3;
         font-size: 48px;
     }
 

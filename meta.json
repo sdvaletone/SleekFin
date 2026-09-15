@@ -5,7 +5,7 @@
   "guid": "da36c4ef-1d10-4169-8a68-26b194d5301a",
   "name": "SleekFin",
   "overview": "The ultimate Jellyfin Web revamp, with new elements, styles, plus compatible with the most popular plugins.",
-  "owner": "varunaditya-plus",
+  "owner": "sdvaletone",
   "targetAbi": "12.0.0.0",
   "timestamp": "2026-09-13T20:49:00.0000000Z",
   "version": "1.2.1.0",

@@ -100,10 +100,14 @@ html.sleekfin-details-mounted #itemDetailPage[data-sleekfin-details] > #itemBack
 }
 
 .sleekfin-details-title :is(h1, .parentName) {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
     color: #fff;
+    display: -webkit-box;
     font: 800 48px/0.95 var(--sleekfin-font-family);
     letter-spacing: -0.03em;
     margin: 0;
+    overflow: hidden;
     text-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
     text-transform: uppercase;
 }
